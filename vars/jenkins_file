@@ -11,7 +11,7 @@ pipeline{
         }
         stage ("code"){
             steps{
-                echo "This is cloning the code"
+                echo "This is cloning the code in jenkins"
                 script{
                    clone("https://github.com/sfaheeal/django-notes-app.git","main") 
                 }
